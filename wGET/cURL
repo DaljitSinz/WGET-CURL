@@ -1,0 +1,3 @@
+wget --http-user=araujo@pythian.com --ask-password "file_url" -O file_name
+OR
+curl --user araujo@pythian.com --cookie-jar cookie-jar.txt --location-trusted "file_url" -o file_name
